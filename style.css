@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .containers {
+    background-image: repeating-radial-gradient(
+      rgb(182, 182, 182),
+      rgb(185, 189, 201)
+    );
+    border-radius: 10px;
+    border-width: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 8px rgb(255, 255, 255);
+  }
+  h1,
+  h2 {
+    color: rgb(119, 141, 214);
+    font-size: larger;
+    text-shadow: -2px -2px 50px gray;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  /* h2 {
+    color: rgb(123, 76, 150);
+    text-shadow: 2px 2px 5px rgb(255, 176, 243);
+  } */
+  h3 {
+    text-align: center;
+    color: rgb(119, 141, 214);
+  }
+  p {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    font-size: 20px;
+  }
+  .skates {
+    border-style: solid;
+  }
+  .skateVideo {
+    align-items: center;
+  }
+  ul li {
+    color: black;
+    font-size: 13px;
+  }
+  
+  ul > li {
+    color: rgb(123, 76, 150);
+  }
+  
